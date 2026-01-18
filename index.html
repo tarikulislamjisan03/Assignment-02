@@ -28,16 +28,19 @@
 <body>
     <header>
         <nav class=" bg-[#281542] p-5  ">
-            <section class="flex justify-between items-center w-[1400px] mx-auto ">
+            <section class="flex md:justify-between gap-40 items-center w-[1400px] mx-auto ">
                 <div>
                     <img src="/B13-A02-TechWave/assets/TechWave.png" alt="">
                 </div>
-                <div class="flex gap-5">
+                <div class="md:hidden ">
+                    <img class="" src="/B13-A02-TechWave/assets/hamburger-menu.png" alt="">
+                </div>
+                <div class="md:flex gap-5 hidden ">
                     <p class="text-[#FFFFFF]">About</p>
                     <p class="text-[#FFFFFF]">Episodes</p>
                     <p class="text-[#FFFFFF]">Host</p>
                 </div>
-                <div class="flex items-center bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-6 rounded-xl py-2">
+                <div class="md:flex items-center bg-gradient-to-r from-[#F7E93F] via-[#FB09B4] to-[#9100F8] px-6 rounded-xl py-2 hidden">
                     <div>
                         <button class="text-[#FFFFFF] ">Subscribe</button>
                     </div>
@@ -49,18 +52,18 @@
         </nav>
         <section class="h-[800px] bgimg ">
           <div class="relative">
-              <div class="absolute left-[625px] top-20">
-                <img src="/B13-A02-TechWave/assets/hero-circle.png" alt="">
+              <div class="absolute left-[128px] top-[200px] md:left-[625px] md:top-20">
+                <img class="w-48" src="/B13-A02-TechWave/assets/hero-circle.png" alt="">
             </div>
-            <div class="absolute left-[739px] top-[160px]">
-                <img src="/B13-A02-TechWave/assets/microphone.png" alt="">
+            <div class="absolute left-[185px] top-[232px] md:left-[739px] md:top-[160px]">
+                <img class="w-20" src="/B13-A02-TechWave/assets/microphone.png" alt="">
             </div>
-            <div class="absolute left-[890px] top-[100px]">
+            <div class="absolute left-[280px] top-[210px]  md:left-[890px] md:top-[100px]">
                 <button class="bg-[#00FF88] font-bold px-3 py-1 rounded-2xl">NEW</button>
             </div>
           </div>
           <div>
-          <div class="relative left-[670px] top-[500px] space-y-3">
+          <div class="relative left-[80px] top-[500px] md:left-[670px] ,md:top-[500px] space-y-3">
               <h1 class="text-white text-5xl font-semibold">TechWave</h1>
             <p class="text-[#FFFFFF]">Your daily dose of tech insights, productivity <br> hacks, and personal growth</p>
             <div class="flex gap-2">
@@ -87,7 +90,99 @@
         </section>
     </header>
     <main>
+        <!-- about the podcast section -->
+         <section class="bg-[#1A0B2E]">
+            <div  class="space-y-3">
+                <h1 class="text-[#FFFF] md:text-5xl text-3xl font-semibold text-center p-4">About The Podcast</h1>
+                <p class="text-[#FFFF] text-center p-5">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>
+We break down complex topics into digestible insights, explore productivity strategies that actually work, <br>
+and share stories of personal growth from industry leaders. <br> <br>
 
+Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+<div>
+    <div class="md:flex justify-center items-center grid grid-cols-2 p-8  md:gap-20 mt-20 space-y-4">
+        <div class="space-y-2 ">
+            <h1 class="text-[#00FF88] md:text-5xl text-3xl font-bold">150K+</h1>
+            <h1 class="text-[#FFFFFF] md:text-2xl text-xl">Monthly Listeners</h1>
+        </div>
+        <div class="space-y-2">
+            <h1 class="text-[#00FF88] md:text-5xl text-3xl font-bold">200K+</h1>
+            <h1 class="text-[#FFFFFF] md:text-2xl text-xl">Episodes Published</h1>
+        </div>
+        <div class="space-y-2">
+            <h1 class="text-[#00FF88] md:text-5xl text-3xl font-bold"> 4.9★</h1>
+            <h1 class="text-[#FFFFFF] md:text-2xl text-3l" >Average Rating</h1>
+        </div>
+        <div class="space-y-2">
+            <h1 class="text-[#00FF88] md:text-5xl text-3xl font-bold">50+</h1>
+            <h1 class="text-[#FFFFFF] md:text-2xl text-xl">Industry Experts</h1>
+        </div>
+    </div>
+</div>
+            </div>
+         </section>
+
+         <!-- Featured Episodes -->
+          <section class="bg-[#1A0B2E]">
+            <h1 class="text-5xl text-[#FFFF] text-center pt-10">Featured Episodes</h1>
+            <!-- iframe -->
+            <div class="pt-10 flex gap-10">
+                <!-- iframe one -->
+                <div class="bg-[#250D44] w-[400px] rounded-lg ">
+                    <div>
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/zQ1POHiR8m8?si=OOglDE2s6-_JFLAm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h1 class="text-3xl text-[#FFFF]">The Future of AI in Everyday <br> Life</h1>
+                        <p class="text-[#FFFF]">Exploring how artificial intelligence is <br> transforming our daily routines and what to <br> expect in the next decade.</p>
+                        <!-- time -->
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img  src="/B13-A02-TechWave/assets/clock.png" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[#00FF88]">42 min</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- iframe two -->
+                <div class="bg-[#250D44]">
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/8EewigNFO6M?si=XAjqQRmuvS8thC-f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h1 class="text-3xl text-[#FFFF]">The Future of AI in Everyday <br> Life</h1>
+                        <p class="text-[#FFFF]">Practical strategies for staying productive <br> and maintaining work-life balance in a <br> remote environment..</p>
+                        <!-- time -->
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img  src="/B13-A02-TechWave/assets/clock.png" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[#00FF88]">35 min</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- iframe three -->
+                <div class="bg-[#250D44]">
+                    <div>
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/xAt1xcC6qfM?si=EyxJ3xTSSoCrp4X3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <h1 class="text-3xl text-[#FFFF]">Career Growth in Tech: A Roadmap</h1>
+                        <p class="text-[#FFFF]">Expert advice on navigating your tech <br> career from junior developer to senior <br> leadership roles.</p>
+                        <!-- time -->
+                        <div class="flex items-center gap-2">
+                            <div>
+                                <img  src="/B13-A02-TechWave/assets/clock.png" alt="">
+                            </div>
+                            <div>
+                                <p class="text-[#00FF88]">51 min</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+          </section>
     </main>
     <footer>
 
