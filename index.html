@@ -8,6 +8,15 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<style>
+    *{
+border: 2px solid red;
+}
+
+body{
+border: 2px solid green;
+}
+</style>
 <!-- taiwind cdn -->
  <script src="https://cdn.tailwindcss.com"></script>
  <!-- font awesome cdn -->
@@ -26,12 +35,13 @@
 .footerbg{
     background-image: url('/B13-A02-TechWave/assets/footer-bg.png');
 }
+
 </style>
 </head>
 <body class="">
     <header>
         <nav class=" bg-[#281542] p-5  ">
-            <section class="flex md:justify-between gap-40 items-center w-[1400px] mx-auto ">
+            <section class="flex md:justify-between gap-40 items-center mx-auto ">
                 <div>
                     <img src="/B13-A02-TechWave/assets/TechWave.png" alt="">
                 </div>
@@ -66,7 +76,7 @@
             </div>
           </div>
           <div>
-          <div class="relative left-[80px] top-[500px] md:left-[670px] ,md:top-[500px] space-y-3">
+          <div class="absolute left-[80px] top-[500px] md:left-[670px] md:pt-20 md:top-[500px] space-y-4">
               <h1 class="text-white text-5xl font-semibold">TechWave</h1>
             <p class="text-[#FFFFFF]">Your daily dose of tech insights, productivity <br> hacks, and personal growth</p>
             <div class="flex gap-2">
@@ -151,8 +161,8 @@ Join thousands of young professionals and tech enthusiasts who start their day w
                     </div>
                 </div>
                 <!-- iframe two -->
-                <div class="bg-[#250D44] ">
-                    <div class="  w-[400px] mx-auto">
+                <div class="bg-[#250D44] rounded-2xl">
+                    <div class="  w-[400px] mx-auto ">
                         <iframe class="rounded-2xl" width="400" height="315" src="https://www.youtube.com/embed/8EewigNFO6M?si=XAjqQRmuvS8thC-f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <div class="p-4 space-y-2 rounded-2xl">
                             <h1 class="text-2xl text-[#FFFF]">Building Better Habits for <br> Remote Work</h1>
@@ -171,7 +181,7 @@ Join thousands of young professionals and tech enthusiasts who start their day w
                     </div>
                 </div>
                 <!-- iframe three -->
-                <div class="bg-[#250D44] ">
+                <div class="bg-[#250D44] rounded-2xl">
                     <div class="rounded-2xl w-[400px] mx-auto">
                        <iframe width="400" height="315" class="rounded-2xl" src="https://www.youtube.com/embed/xAt1xcC6qfM?si=EyxJ3xTSSoCrp4X3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                   <div class="p-4 space-y-2 rounded-2xl">
@@ -216,13 +226,13 @@ Join thousands of young professionals and tech enthusiasts who start their day w
             </div>
            </section>
     </main>
-    <footer class=" bg-[#1A0B2E] footerbg h-[400px] relative">
+    <footer class=" bg-[#1A0B2E] footerbg h-[1400px] relative ">
 <section class=" pt-20">
     <div class="absolute md:top-[120px] md:left-[684px]">
         <img class="" src="/B13-A02-TechWave/assets/TechWave.png" alt="">
     </div>
 <!-- icon -->
-   <div class="flex gap-10 relative md:left-[566px] md:top-[130px]">
+   <div class="flex gap-10 absolute md:left-[566px] md:top-[130px]">
     <!-- spotify -->
      <div class="flex items-center gap-2">
         <div>
@@ -261,7 +271,7 @@ Join thousands of young professionals and tech enthusiasts who start their day w
        </div>
    </div>
    <div>
-    <h1 class="text-[#FFFF] relative left-[640px] top-[145px] text-lg ">© 2026 TechWave Podcast. All rights reserved.</h1>
+    <h1 class="text-[#FFFF] absolute left-[640px] top-[145px] text-lg ">© 2026 TechWave Podcast. All rights reserved.</h1>
    </div>
 </section>
     </footer>
