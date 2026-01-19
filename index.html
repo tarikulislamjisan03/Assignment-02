@@ -34,11 +34,14 @@ border: 2px solid green;
 }
 .footerbg{
     background-image: url('/B13-A02-TechWave/assets/footer-bg.png');
+    
+    
+    
 }
 
 </style>
 </head>
-<body class="">
+<body class="border border-red-600">
     <header>
         <nav class=" bg-[#281542] p-5  ">
             <section class="flex md:justify-between gap-40 items-center mx-auto ">
@@ -135,11 +138,60 @@ Join thousands of young professionals and tech enthusiasts who start their day w
             </div>
          </section>
 
+
+         <!-- Why choose techwave section -->
+          <section class="bg-[#230E3D]">
+            <h1 class="text-4xl text-[#FFFF] text-center pb-10 pt-20">Why Choose TechWave</h1>
+<div>
+    <div class="grid grid-cols-1 md:grid-cols-3 p-6 md:gap-5 md:w-[1000px]  mx-auto">
+        <!-- first card -->
+
+    <div class="bg-[#351165] row-span-1 p-5 space-y-3 rounded-2xl mx-auto md:flex flex-col justify-center w-full ">
+    <img class="md:w-1/6" src="/B13-A02-TechWave/assets/headphone.png" alt="">
+    <h1 class="text-2xl text-[#FFFF]">Premium Audio Quality</h1>
+    <p class="text-[#FFF]">Experience crystal-clear sound with <br> professional-grade recording <br>equipment and expert audio <br> engineering. Every episode is mastered <br> for optimal listening across all devices <br> and platforms.</p>
+
+</div>
+
+<!-- 2nd and 3rd -->
+ 
+<div class="space-y-4 col-span-2 p-4">
+        <div class="bg-[#351165] p-6 space-y-3 rounded-2xl  ">
+    <img src="/B13-A02-TechWave/assets/device.png" alt="">
+    <h1 class="text-2xl text-[#FFFF]">Mobile Friendly</h1>
+    <p class="text-[#FFFF]">Listen on the go with seamless mobile experience and offline downloads.</p>
+</div>
+<div class="bg-[#351165] p-6 space-y-3 rounded-2xl ">
+    <img src="/B13-A02-TechWave/assets/location.png" alt="">
+    <h1 class="text-[#FFFF] text-3xl">Global Community</h1>
+    <p class="text-[#FFF]">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+</div>
+</div>
+ </div>
+
+    </div>
+
+    <!-- 4th and 5th card -->
+     <div class="md:grid grid-cols-3  items-center gap-5 mx-auto md:w-[1000px] pt-5 pb-20 space-y-7 p-4">
+        <div class="bg-[#351165] p-4 rounded-2xl col-span-2 space-y-3">
+            <img src="/B13-A02-TechWave/assets/Icon (Stroke).png" alt="">
+            <h1 class="text-[#FFFF] text-2xl">Exclusive Interviews</h1>
+            <p class="text-[#FFF]">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host <br> secures exclusive conversations you won't find anywhere else, diving deep into their <br> journeys, failures, and success strategies.</p>
+        </div>
+        <div class="bg-[#351165] p-4 rounded-2xl space-y-3">
+            <img src="/B13-A02-TechWave/assets/resource.png" alt="">
+            <h1 class="text-[#FFFF] text-2xl">Rich Resources</h1>
+            <p class="text-[#FFF]">Access show notes, transcripts, and <br> additional learning materials for every <br> episode.</p>
+        </div>
+     </div>
+</div>
+          </section>
+
          <!-- Featured Episodes -->
           <section class="bg-[#1A0B2E]">
             <h1 class="text-5xl text-[#FFFF] text-center pt-10">Featured Episodes</h1>
             <!-- iframe -->
-            <div class="pt-10 md:flex gap-10 pb-20 md:justify-center">
+            <div class="pt-10 md:flex gap-10 pb-20 md:justify-center space-y-4">
                 <!-- iframe one -->
                 <div class="bg-[#250D44] w-[400px] rounded-2xl mx-auto md:mx-0 ">
                     <div>
@@ -205,34 +257,36 @@ Join thousands of young professionals and tech enthusiasts who start their day w
 
           <!-- Meet the Host -->
            <h1 class="text-5xl text-center pb-8 font-semibold text-white bg-[#1A0B2E]">Meet The Host</h1>
-           <section class="bg-[#1A0B2E] pb-20">
+           <section class="bg-[#1A0B2E] pb-20 p-3">
             
             <div class="bg-[#3c235d] md:w-[1300px] mx-auto rounded-3xl">
-                <div class="md:flex justify-evenly ">
-  <div class="p-5">
+                <div class="md:flex items-center justify-evenly ">
+  <div class="p-5 md:justify-start justify-center  flex">
     <img src="/B13-A02-TechWave/assets/host.png" alt="">
   </div>
-  <div class="flex flex-col justify-center md:items-center space-y-4 ">
-    <h1 class="text-[#FFFF] text-4xl font-semibold">Alex Kumar</h1>
-    <p class="text-[#FFF]">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, <br> working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and <br>practical advice for anyone looking to grow in tech.</p>
-    <div class="flex gap-2 justify-start">
-        <img src="/B13-A02-TechWave/assets/linkedin.png" alt="">
-        <img src="/B13-A02-TechWave/assets/twitter.png" alt="">
-        <img src="/B13-A02-TechWave/assets/instagram.png" alt="">
-        <img src="/B13-A02-TechWave/assets/youtube.png" alt="">
+  <div class=" space-y-4 p-4 ">
+    <h1 class="text-[#FFFF] text-4xl font-semibold md:text-start text-center">Alex Kumar</h1>
+    <p class="text-[#FFF] md:text-start text-center">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, <br> working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and <br>practical advice for anyone looking to grow in tech.</p>
+    <div class="flex gap-2 mx-auto items-center justify-center md:justify-start">
+        <div class="border border-[#533C72] rounded-full p-2">
+            <img  src="/B13-A02-TechWave/assets/linkedin.png" alt="">
+        </div>
+        <img class="border border-[#533C72] rounded-full p-2" src="/B13-A02-TechWave/assets/twitter.png" alt="">
+        <img class="border border-[#533C72] rounded-full p-2" src="/B13-A02-TechWave/assets/instagram.png" alt="">
+        <img class="border border-[#533C72] rounded-full p-2" src="/B13-A02-TechWave/assets/youtube.png" alt="">
     </div>
   </div>
                 </div>
             </div>
            </section>
     </main>
-    <footer class=" bg-[#1A0B2E] footerbg h-[1400px] relative ">
+    <footer class=" bg-[#1A0B2E] footerbg h-[600px] relative ">
 <section class=" pt-20">
-    <div class="absolute md:top-[120px] md:left-[684px]">
+    <div class="absolute left-[95px] md:top-[160px] md:left-[684px]">
         <img class="" src="/B13-A02-TechWave/assets/TechWave.png" alt="">
     </div>
 <!-- icon -->
-   <div class="flex gap-10 absolute md:left-[566px] md:top-[130px]">
+   <div class="flex md:gap-10 gap-4 absolute top-[150px] left-[20px] md:left-[576px] md:top-[220px]">
     <!-- spotify -->
      <div class="flex items-center gap-2">
         <div>
@@ -248,7 +302,7 @@ Join thousands of young professionals and tech enthusiasts who start their day w
             <img src="/B13-A02-TechWave/assets/apple-podcast.png" alt="">
         </div>
         <div>
-            <h1 class="text-[#FFFF]">Apple Podcast</h1>
+            <h1 class="text-[#FFFF]">Apple </h1>
         </div>
      </div>
      <!-- yt -->
@@ -271,7 +325,7 @@ Join thousands of young professionals and tech enthusiasts who start their day w
        </div>
    </div>
    <div>
-    <h1 class="text-[#FFFF] absolute left-[640px] top-[145px] text-lg ">© 2026 TechWave Podcast. All rights reserved.</h1>
+    <h1 class="text-[#FFFF] absolute left-[10px] top-[200px] md:left-[640px] md:top-[275px] text-lg ">© 2026 TechWave Podcast. All rights reserved.</h1>
    </div>
 </section>
     </footer>
